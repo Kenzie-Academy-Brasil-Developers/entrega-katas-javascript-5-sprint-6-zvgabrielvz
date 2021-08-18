@@ -202,14 +202,14 @@ testCalculateRemainder2();
 //------ KATAS 6 ----//
 
 function testDistinctValues1() {
-   let result = distinctValues("bob likes dogs");
-   let expected = "dogs likes bob";
+   let result = distinctValues("1 2 5 1 9 8 2 1");
+   let expected = "1 2 5 9 8";
    console.assert(result === expected, `esperado: ${expected}, obtido: ${result}`)
 }
 
 function testDistinctValues2() {
-   let result = distinctValues("joana likes animals");
-   let expected = "animals likes joana";
+   let result = distinctValues("10 20 30 50 20 10 100");
+   let expected = "10 20 30 50 100";
    console.assert(result === expected, `esperado: ${expected}, obtido: ${result}`)
 }
 
